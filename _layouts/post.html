@@ -34,6 +34,7 @@ layout: default
   <a class="tag-link" href="{{site.baseurl}}/categories/#{{category|slugize}}"><span itemprop="keywords">{{category}}</span></a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
+  <br/>
 </div>
 <div class="pagination">
   {% if page.next.url %}
