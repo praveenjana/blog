@@ -2,7 +2,7 @@
 permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          Tale
+title:          Praveen
 paginate:       5
 baseurl:        "/blog"
 url:            "https://chesterhow.github.io"
