@@ -34,8 +34,9 @@ layout: default
   <a class="tag-link" href="{{site.baseurl}}/categories/#{{category|slugize}}"><span itemprop="keywords">{{category}}</span></a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
-  <br/>
+ 
 </div>
+ <br/> <br/>
 <div class="pagination">
   {% if page.next.url %}
     <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
