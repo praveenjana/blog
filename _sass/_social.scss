@@ -1,11 +1,19 @@
 .share-box a {
   display: inline-block;
+  background: #555;
+  color: #fff;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
   -webkit-box-shadow: 0 0 0px #777;
   box-shadow: 0 0 0px #777;
-  padding: 5px 12px;
+  padding: 5px 5px 5px 5px;
   margin-right: 5px;
   margin-bottom: 5px;
-  text-decoration: none; }
+  text-decoration: none; 
+    text-align: center;
+
+}
   .share-box a:hover {
     text-decoration: none;
     -webkit-transition: background-color 200ms linear;
@@ -13,6 +21,7 @@
     transition: background-color 200ms linear; }
 
 .f {
+
   color: #555; }
   .f:hover {
     color: #fff;
@@ -47,3 +56,42 @@
   .e:hover {
     color: #fff;
     background-color: #444444; }
+
+ul.follow {
+    overflow: auto;
+}
+ 
+ul.follow li {
+     padding: 0 0 0 0;
+    list-style-type: none;
+    float: left;
+}
+
+ul.follow li a i {
+    background: #555;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;   
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+
+ul.follow li a i.fa.fa-facebook:hover {
+    background-color: #3b5998;
+}
+ul.follow li a i.fa.fa-linkedin:hover {
+   
+    background-color: #0077b5; 
+}
+ul.follow li a i.fa.fa-twitter:hover {
+    
+   background-color: #4099FF;
+}
+ul.follow li a i.fa.fa-google-plus:hover {
+    
+    background-color: #d34836;
+}

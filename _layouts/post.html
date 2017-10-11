@@ -37,7 +37,11 @@ layout: default
  
 </div>
  <br/> 
-{% include sharebutton-header.html %}
+ {% if page.title=="About" %}
+     {% include follow-bar.html %}
+ {% else %}
+    {% include sharebutton-header.html %}
+ {% endif %}
 <br/>
 <div class="pagination">
   {% if page.next.url %}

@@ -36,6 +36,7 @@ footer,
   }
 
   ul {
+      
     list-style-type: none;
     margin: 1rem 0 0;
     padding: 0;
@@ -58,6 +59,8 @@ footer,
       opacity: 1;
     }
   }
+    
+  
 
   a {
     color: $default-color;
@@ -75,6 +78,7 @@ footer,
       bottom: 0;
       position: absolute;
       right: 0;
+        overflow: auto;
     }
   }
 }
